@@ -1,0 +1,51 @@
+.header{
+    background-color: #EE7A00;
+}
+ng-md-icon{
+    fill:white;
+}
+.float{
+    float: right;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: #007FBB;
+}
+.subheader{
+    height: 200px;
+    width: 300px;
+
+}
+.animation
+{
+    margin:0;
+    padding:0;
+    width:100%;
+    height:auto;
+}
+.searchicon{
+    background-color: #FF8300;
+
+}
+.searchicon:hover{
+    background-color: #EB5858;
+}
+.input{
+    height: 42px;
+    width: 450px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: none;
+}
+.input1{
+    height: 42px;
+    width: 225px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-right: none;
+    border-left: 1px solid black;
+}
