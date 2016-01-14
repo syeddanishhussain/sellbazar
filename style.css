@@ -1,8 +1,15 @@
+body{
+    overflow: hidden;
+}
 .header{
     background-color: #EE7A00;
+    width: 100%;
 }
 ng-md-icon{
     fill:white;
+}
+ng-md-icon:hover{
+    fill: #007FBB;
 }
 .float{
     float: right;
@@ -10,6 +17,7 @@ ng-md-icon{
 a{
     color: white;
     text-decoration: none;
+    font-size: 12px;
 }
 a:hover{
     color: #007FBB;
@@ -34,7 +42,7 @@ a:hover{
     background-color: #EB5858;
 }
 .input{
-    height: 42px;
+    height: 32px;
     width: 450px;
     border-bottom: 1px solid black;
     border-top: 1px solid black;
@@ -42,10 +50,49 @@ a:hover{
     border-left: none;
 }
 .input1{
-    height: 42px;
+    height: 32px;
     width: 225px;
     border-bottom: 1px solid black;
     border-top: 1px solid black;
     border-right: none;
     border-left: 1px solid black;
+}
+.firstToolbar{
+    margin-top: 5%;
+    height: 45px;
+    width: 960px;
+    background-color: #428BCA;
+}
+.buttonFonts{
+    color: #FAFCFE !important;
+    font-weight: bolder;
+
+}
+
+.imageAlign{
+    width: 232px;
+    height: 350px;
+
+
+}
+.imageAlign1{
+    width: 232px;
+    height: 350px;
+    padding: 0px;
+    margin: 5px;
+    border: 3px solid #F4F4F4;
+
+}
+.divBorder{
+    border-bottom: 2px solid grey;
+}
+.divMargin{
+    margin-top: 3%;
+}
+.mainDivMargin{
+    margin-top: 5%;
+}
+.boxShadows{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.20);
+
 }
