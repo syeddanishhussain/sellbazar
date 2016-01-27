@@ -20,7 +20,7 @@
 
     <script src="app.js"></script>
 </head>
-<body ng-app="sellbazarApp">
+<body ng-app="sellbazarApp" ng-controller="applicationController">
 <header class="header">
     <div layout="row">
         <div flex="5"></div>
@@ -109,10 +109,10 @@
                     <div layout="column">
 
                         <div layout="row">
-                            <div class="imageAlign1 divBorder boxShadows" layout="column"><img src="images/1.jpg" class="imageAlign"><md-button ng-click="showAdvanced1($event)"><b>Order Now</b></md-button></div>
-                            <div class="imageAlign1 divBorder boxShadows" layout="column"><img src="images/2.jpg" class="imageAlign"><md-button><b>Order Now</b></md-button></div>
-                            <div class="imageAlign1 divBorder boxShadows" layout="column"><img src="images/3.jpg" class="imageAlign"><md-button><b>Order Now</b></md-button></div>
-                            <div class="imageAlign1 divBorder boxShadows" layout="column"><img src="images/4.jpg" class="imageAlign"><md-button><b>Order Now</b></md-button></div>
+                            <div class="imageAlign1 divBorder boxShadows" layout="column" ng-click="showAdvanced($event)"><img src="images/1.jpg" class="imageAlign"><md-button class="md-raised md-primary" ng-click="showAdvanced1($event)"><b>Order Now</b></md-button></div>
+                            <div class="imageAlign1 divBorder boxShadows" layout="column" ng-click="showAdvanced2($event)"><img src="images/2.jpg" class="imageAlign"><md-button class="md-raised md-primary"><b>Order Now</b></md-button></div>
+                            <div class="imageAlign1 divBorder boxShadows" layout="column" ng-click="showAdvanced3($event)"><img src="images/3.jpg" class="imageAlign"><md-button class="md-raised md-primary"><b>Order Now</b></md-button></div>
+                            <div class="imageAlign1 divBorder boxShadows" layout="column" ng-click="showAdvanced4($event)"><img src="images/4.jpg" class="imageAlign"><md-button class="md-raised md-primary"><b>Order Now</b></md-button></div>
                         </div>
 
 
@@ -128,10 +128,10 @@
             <md-card>
                 <md-card-content>
                     <div layout="row">
-                        <div class="imageAlign1 divBorder boxShadows" layout="column"><img src="images/6.jpg" class="imageAlign"><md-button><b><b>Order Now</b></b></md-button></div>
-                        <div class="imageAlign1 divBorder boxShadows" layout="column"><img src="images/7.jpg" class="imageAlign"><md-button><b>Order Now</b></md-button></div>
-                        <div class="imageAlign1 divBorder boxShadows" layout="column"><img src="images/8.jpg" class="imageAlign"><md-button><b>Order Now</b></md-button></div>
-                        <div class="imageAlign1 divBorder boxShadows" layout="column"><img src="images/9.jpg" class="imageAlign"><md-button><b>Order Now</b></md-button></div>
+                        <div class="imageAlign1 divBorder boxShadows" layout="column" ng-click="showAdvanced5($event)"><img src="images/6.jpg" class="imageAlign"><md-button class="md-raised md-primary" ><b><b>Order Now</b></b></md-button></div>
+                        <div class="imageAlign1 divBorder boxShadows" layout="column" ng-click="showAdvanced6($event)"><img src="images/7.jpg" class="imageAlign"><md-button class="md-raised md-primary" style="margin-top: 11%"><b>Order Now</b></md-button></div>
+                        <div class="imageAlign1 divBorder boxShadows" layout="column" ng-click="showAdvanced7($event)"><img src="images/8.jpg" class="imageAlign"><md-button class="md-raised md-primary" style="margin-top: 11%"><b>Order Now</b></md-button></div>
+                        <div class="imageAlign1 divBorder boxShadows" layout="column" ng-click="showAdvanced8($event)"><img src="images/9.jpg" class="imageAlign"><md-button class="md-raised md-primary" style="margin-top: 13%"><b>Order Now</b></md-button></div>
                     </div>
                 </md-card-content>
             </md-card>
