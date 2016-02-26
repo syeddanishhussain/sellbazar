@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html style="overflow: hidden">
-<head lang="en" >
+<head lang="en">
     <meta charset="UTF-8">
     <title></title>
     <link rel="stylesheet" type="text/css" href="bower_components/angular-material/angular-material.css">
@@ -47,10 +47,12 @@
     </div>
 </header>
 <!--chat side-->
-<div class="wrapper" >
+<div class="wrapper">
 
 
-    <md-button class="md-raised button2" id="rotate" ><ng-md-icon icon="chat" style="fill: white;text-align: center" ></ng-md-icon><b>Chat Now</b></md-button>
+    <md-button class="md-raised button2" id="rotate">
+        <ng-md-icon icon="chat" style="fill: white;text-align: center"></ng-md-icon>
+        <b>Chat Now</b></md-button>
 
 </div>
 <!--subheader-->
@@ -58,115 +60,219 @@
 
 <div style="height: 100%; overflow: auto">
 
-        <div layout="column" layout-align="center center" >
-            <md-subheader layout="row">
-                <div layout="row" layout-align="center center">
-                    <img src="images/logo.jpg" class="subheader" layout="row" layout-align="center center">
+    <div layout="column" layout-align="center center">
+        <md-subheader layout="row">
+            <div layout="row" layout-align="center center">
+                <img src="images/logo.jpg" class="subheader" layout="row" layout-align="center center">
 
 
-                    <a href="#" class="searchicon">
-                        <ng-md-icon icon="search" size="30"></ng-md-icon>
-                    </a><input layout="row" layout-align="center center" class="input"
-                               placeholder="What are you looking for?">
+                <a href="#" class="searchicon">
+                    <ng-md-icon icon="search" size="30"></ng-md-icon>
+                </a><input layout="row" layout-align="center center" class="input"
+                           placeholder="What are you looking for?">
 
-                    <div flex="5"></div>
-                    <input layout="row" layout-align="center center" class="input1"><a href="#" class="searchicon">
-                    <ng-md-icon icon="shopping_cart" size="30"></ng-md-icon>
-                </a>
+                <div flex="5"></div>
+                <input layout="row" layout-align="center center" class="input1"><a href="#" class="searchicon">
+                <ng-md-icon icon="shopping_cart" size="30"></ng-md-icon>
+            </a>
 
-                </div>
-
-            </md-subheader>
-
-            <div class="animation" layout="row" layout-align="center center"> <!-- Open Animation -->
-                <!-- Insert to your webpage where you want to display the slider -->
-                <div id="amazingslider-1" style="display:block;position:relative;margin:0">
-                    <ul class="amazingslider-slides" style="display:none;">
-
-                        <li><img src="images/Slider-01.jpg"/></li>
-                        <li><img src="images/Slider-02.jpg"/></li>
-                        <li><img src="images/Slider-03.jpg"></li>
-                        <li><img src="images/Slider-04.jpg"/></li>
-
-                    </ul>
-                    <ul class="amazingslider-thumbnails" style="display:none;">
-                        <li><img src="images/Slider-01.jpg"/></li>
-                        <li><img src="images/Slider-02.jpg"/></li>
-                        <li><img src="images/Slider-03.jpg"/></li>
-                        <li><img src="images/Slider-04.jpg"/></li>
-
-                    </ul>
-                    <div class="amazingslider-engine" style="display:none;"><a href="http://amazingslider.com">JavaScript
-                        Slideshow</a></div>
-                </div>
-            </div>
-            <div class="firstToolbar">
-                <md-button class="md-primary buttonFonts">CASUAL SHIRTS</md-button>
-                <md-button class="md-primary buttonFonts">VIEW ALL</md-button>
             </div>
 
-            <md-card>
-                <md-card-content>
-                    <div layout="column">
+        </md-subheader>
 
-                        <div layout="row">
-                            <div class="imageAlign1 divBorder boxShadows" layout="column" ng-click="showAdvanced($event)"><img src="images/1.jpg" class="imageAlign"><md-button class="md-raised md-primary" ng-click="showAdvanced1($event)"><b>Order Now</b></md-button></div>
-                            <div class="imageAlign1 divBorder boxShadows" layout="column" ng-click="showAdvanced2($event)"><img src="images/2.jpg" class="imageAlign"><md-button class="md-raised md-primary"><b>Order Now</b></md-button></div>
-                            <div class="imageAlign1 divBorder boxShadows" layout="column" ng-click="showAdvanced3($event)"><img src="images/3.jpg" class="imageAlign"><md-button class="md-raised md-primary"><b>Order Now</b></md-button></div>
-                            <div class="imageAlign1 divBorder boxShadows" layout="column" ng-click="showAdvanced4($event)"><img src="images/4.jpg" class="imageAlign"><md-button class="md-raised md-primary"><b>Order Now</b></md-button></div>
-                        </div>
+        <!--navigation buttons-->
+        <div layout="row">
+            <md-button class="md-raised">MEN's</md-button>
+            <md-button class="md-raised">Women's</md-button>
+            <md-button class="md-raised">Childrens</md-button>
+            <md-button class="md-raised">Electronics</md-button>
+            <md-button class="md-raised">Contact</md-button>
+            <md-button class="md-raised">About</md-button>
+        </div>
 
+        <div class="animation" layout="row" layout-align="center center"> <!-- Open Animation -->
+            <!-- Insert to your webpage where you want to display the slider -->
+            <div id="amazingslider-1" style="display:block;position:relative;margin:0">
+                <ul class="amazingslider-slides" style="display:none;">
 
-                    </div>
-                </md-card-content>
-            </md-card>
+                    <li><img src="images/Slider-01.jpg"/></li>
+                    <li><img src="images/Slider-02.jpg"/></li>
+                    <li><img src="images/Slider-03.jpg"></li>
+                    <li><img src="images/Slider-04.jpg"/></li>
 
-            <div class="firstToolbar">
+                </ul>
+                <ul class="amazingslider-thumbnails" style="display:none;">
+                    <li><img src="images/Slider-01.jpg"/></li>
+                    <li><img src="images/Slider-02.jpg"/></li>
+                    <li><img src="images/Slider-03.jpg"/></li>
+                    <li><img src="images/Slider-04.jpg"/></li>
+
+                </ul>
+                <div class="amazingslider-engine" style="display:none;"><a href="http://amazingslider.com">JavaScript
+                    Slideshow</a></div>
+            </div>
+        </div>
+        <div class="firstToolbar">
             <md-button class="md-primary buttonFonts">CASUAL SHIRTS</md-button>
             <md-button class="md-primary buttonFonts">VIEW ALL</md-button>
         </div>
 
-            <md-card>
-                <md-card-content>
-                    <div layout="row">
-                        <div class="imageAlign1 divBorder boxShadows" layout="column" ng-click="showAdvanced5($event)"><img src="images/6.jpg" class="imageAlign"><md-button class="md-raised md-primary" ><b><b>Order Now</b></b></md-button></div>
-                        <div class="imageAlign1 divBorder boxShadows" layout="column" ng-click="showAdvanced6($event)"><img src="images/7.jpg" class="imageAlign"><md-button class="md-raised md-primary" style="margin-top: 11%"><b>Order Now</b></md-button></div>
-                        <div class="imageAlign1 divBorder boxShadows" layout="column" ng-click="showAdvanced7($event)"><img src="images/8.jpg" class="imageAlign"><md-button class="md-raised md-primary" style="margin-top: 11%"><b>Order Now</b></md-button></div>
-                        <div class="imageAlign1 divBorder boxShadows" layout="column" ng-click="showAdvanced8($event)"><img src="images/9.jpg" class="imageAlign"><md-button class="md-raised md-primary" style="margin-top: 13%"><b>Order Now</b></md-button></div>
-                    </div>
-                </md-card-content>
-            </md-card>
-            <div class="firstToolbar">
-                <md-button class="md-primary buttonFonts">CASUAL SHIRTS</md-button>
-                <md-button class="md-primary buttonFonts">VIEW ALL</md-button>
-            </div>
+        <md-card>
+            <md-card-content style="width:1100px">
+                <div layout="row">
 
-            <md-card>
-                <md-card-content>
-                    <div layout="row">
-                        <div class="imageAlign1 divBorder boxShadows" layout="column" ng-click="showAdvanced5($event)"><img src="images/6.jpg" class="imageAlign"><md-button class="md-raised md-primary" ><b><b>Order Now</b></b></md-button></div>
-                        <div class="imageAlign1 divBorder boxShadows" layout="column" ng-click="showAdvanced6($event)"><img src="images/7.jpg" class="imageAlign"><md-button class="md-raised md-primary" style="margin-top: 11%"><b>Order Now</b></md-button></div>
-                        <div class="imageAlign1 divBorder boxShadows" layout="column" ng-click="showAdvanced7($event)"><img src="images/8.jpg" class="imageAlign"><md-button class="md-raised md-primary" style="margin-top: 11%"><b>Order Now</b></md-button></div>
-                        <div class="imageAlign1 divBorder boxShadows" layout="column" ng-click="showAdvanced8($event)"><img src="images/9.jpg" class="imageAlign"><md-button class="md-raised md-primary" style="margin-top: 13%"><b>Order Now</b></md-button></div>
-                    </div>
-                </md-card-content>
-            </md-card>
-            <div class="firstToolbar">
-                <md-button class="md-primary buttonFonts">CASUAL SHIRTS</md-button>
-                <md-button class="md-primary buttonFonts">VIEW ALL</md-button>
-            </div>
 
-            <md-card>
-                <md-card-content>
                     <div layout="row">
-                        <div class="imageAlign1 divBorder boxShadows" layout="column" ng-click="showAdvanced5($event)"><img src="images/6.jpg" class="imageAlign"><md-button class="md-raised md-primary" ><b><b>Order Now</b></b></md-button></div>
-                        <div class="imageAlign1 divBorder boxShadows" layout="column" ng-click="showAdvanced6($event)"><img src="images/7.jpg" class="imageAlign"><md-button class="md-raised md-primary" style="margin-top: 11%"><b>Order Now</b></md-button></div>
-                        <div class="imageAlign1 divBorder boxShadows" layout="column" ng-click="showAdvanced7($event)"><img src="images/8.jpg" class="imageAlign"><md-button class="md-raised md-primary" style="margin-top: 11%"><b>Order Now</b></md-button></div>
-                        <div class="imageAlign1 divBorder boxShadows" layout="column" ng-click="showAdvanced8($event)"><img src="images/9.jpg" class="imageAlign"><md-button class="md-raised md-primary" style="margin-top: 13%"><b>Order Now</b></md-button></div>
+                        <marquee behavior="slide" direction="alternate">
+                            <div layout="row">
+
+
+                                <div class="imageAlign1 divBorder boxShadows" layout="column"
+                                     ng-click="showAdvanced($event)"><img src="images/1.jpg" class="imageAlign">
+                                    <md-button class="md-raised md-primary" ng-click="showAdvanced1($event)"><b>Order
+                                        Now</b></md-button>
+                                </div>
+                                <div class="imageAlign1 divBorder boxShadows" layout="column"
+                                     ng-click="showAdvanced2($event)"><img src="images/2.jpg" class="imageAlign">
+                                    <md-button class="md-raised md-primary"><b>Order Now</b></md-button>
+                                </div>
+                                <div class="imageAlign1 divBorder boxShadows" layout="column"
+                                     ng-click="showAdvanced3($event)"><img src="images/3.jpg" class="imageAlign">
+                                    <md-button class="md-raised md-primary"><b>Order Now</b></md-button>
+                                </div>
+                                <div class="imageAlign1 divBorder boxShadows" layout="column"
+                                     ng-click="showAdvanced4($event)"><img src="images/4.jpg" class="imageAlign">
+                                    <md-button class="md-raised md-primary"><b>Order Now</b></md-button>
+                                </div>
+                                <div class="imageAlign1 divBorder boxShadows" layout="column"
+                                     ng-click="showAdvanced($event)"><img src="images/1.jpg" class="imageAlign">
+                                    <md-button class="md-raised md-primary" ng-click="showAdvanced1($event)"><b>Order
+                                        Now</b></md-button>
+                                </div>
+                                <div class="imageAlign1 divBorder boxShadows" layout="column"
+                                     ng-click="showAdvanced2($event)"><img src="images/2.jpg" class="imageAlign">
+                                    <md-button class="md-raised md-primary"><b>Order Now</b></md-button>
+                                </div>
+                                <div class="imageAlign1 divBorder boxShadows" layout="column"
+                                     ng-click="showAdvanced3($event)"><img src="images/3.jpg" class="imageAlign">
+                                    <md-button class="md-raised md-primary"><b>Order Now</b></md-button>
+                                </div>
+                                <div class="imageAlign1 divBorder boxShadows" layout="column"
+                                     ng-click="showAdvanced4($event)"><img src="images/4.jpg" class="imageAlign">
+                                    <md-button class="md-raised md-primary"><b>Order Now</b></md-button>
+                                </div>
+                            </div>
+                        </marquee>
                     </div>
-                </md-card-content>
-            </md-card>
+
+
+                </div>
+            </md-card-content>
+        </md-card>
+
+        <div class="firstToolbar">
+            <md-button class="md-primary buttonFonts">CASUAL SHIRTS</md-button>
+            <md-button class="md-primary buttonFonts">VIEW ALL</md-button>
         </div>
+
+        <md-card>
+            <md-card-content>
+                <div layout="row">
+                    <marquee behavior="slide" direction="alternate">
+                        <div layout="row">
+                            <div class="imageAlign1 divBorder boxShadows" layout="column"
+                                 ng-click="showAdvanced5($event)"><img src="images/6.jpg" class="imageAlign">
+                                <md-button class="md-raised md-primary"><b><b>Order Now</b></b></md-button>
+                            </div>
+                            <div class="imageAlign1 divBorder boxShadows" layout="column"
+                                 ng-click="showAdvanced6($event)"><img src="images/7.jpg" class="imageAlign">
+                                <md-button class="md-raised md-primary" style="margin-top: 11%"><b>Order Now</b>
+                                </md-button>
+                            </div>
+                            <div class="imageAlign1 divBorder boxShadows" layout="column"
+                                 ng-click="showAdvanced7($event)"><img src="images/8.jpg" class="imageAlign">
+                                <md-button class="md-raised md-primary" style="margin-top: 11%"><b>Order Now</b>
+                                </md-button>
+                            </div>
+                            <div class="imageAlign1 divBorder boxShadows" layout="column"
+                                 ng-click="showAdvanced8($event)"><img src="images/9.jpg" class="imageAlign">
+                                <md-button class="md-raised md-primary" style="margin-top: 13%"><b>Order Now</b>
+                                </md-button>
+                            </div>
+                        </div>
+                    </marquee>
+                </div>
+            </md-card-content>
+        </md-card>
+        <div class="firstToolbar">
+            <md-button class="md-primary buttonFonts">CASUAL SHIRTS</md-button>
+            <md-button class="md-primary buttonFonts">VIEW ALL</md-button>
+        </div>
+
+        <md-card>
+            <md-card-content>
+                <div layout="row">
+                    <marquee behavior="slide" direction="alternate">
+                        <div layout="row">
+                            <div class="imageAlign1 divBorder boxShadows" layout="column"
+                                 ng-click="showAdvanced5($event)"><img src="images/6.jpg" class="imageAlign">
+                                <md-button class="md-raised md-primary"><b><b>Order Now</b></b></md-button>
+                            </div>
+                            <div class="imageAlign1 divBorder boxShadows" layout="column"
+                                 ng-click="showAdvanced6($event)"><img src="images/7.jpg" class="imageAlign">
+                                <md-button class="md-raised md-primary" style="margin-top: 11%"><b>Order Now</b>
+                                </md-button>
+                            </div>
+                            <div class="imageAlign1 divBorder boxShadows" layout="column"
+                                 ng-click="showAdvanced7($event)"><img src="images/8.jpg" class="imageAlign">
+                                <md-button class="md-raised md-primary" style="margin-top: 11%"><b>Order Now</b>
+                                </md-button>
+                            </div>
+                            <div class="imageAlign1 divBorder boxShadows" layout="column"
+                                 ng-click="showAdvanced8($event)"><img src="images/9.jpg" class="imageAlign">
+                                <md-button class="md-raised md-primary" style="margin-top: 13%"><b>Order Now</b>
+                                </md-button>
+                            </div>
+                        </div>
+                    </marquee>
+                </div>
+            </md-card-content>
+        </md-card>
+        <div class="firstToolbar">
+            <md-button class="md-primary buttonFonts">CASUAL SHIRTS</md-button>
+            <md-button class="md-primary buttonFonts">VIEW ALL</md-button>
+        </div>
+
+        <md-card>
+            <md-card-content>
+                <div layout="row">
+                    <marquee behavior="slide" direction="alternate">
+                        <div layout="row">
+                            <div class="imageAlign1 divBorder boxShadows" layout="column"
+                                 ng-click="showAdvanced5($event)"><img src="images/6.jpg" class="imageAlign">
+                                <md-button class="md-raised md-primary"><b><b>Order Now</b></b></md-button>
+                            </div>
+                            <div class="imageAlign1 divBorder boxShadows" layout="column"
+                                 ng-click="showAdvanced6($event)"><img src="images/7.jpg" class="imageAlign">
+                                <md-button class="md-raised md-primary" style="margin-top: 11%"><b>Order Now</b>
+                                </md-button>
+                            </div>
+                            <div class="imageAlign1 divBorder boxShadows" layout="column"
+                                 ng-click="showAdvanced7($event)"><img src="images/8.jpg" class="imageAlign">
+                                <md-button class="md-raised md-primary" style="margin-top: 11%"><b>Order Now</b>
+                                </md-button>
+                            </div>
+                            <div class="imageAlign1 divBorder boxShadows" layout="column"
+                                 ng-click="showAdvanced8($event)"><img src="images/9.jpg" class="imageAlign">
+                                <md-button class="md-raised md-primary" style="margin-top: 13%"><b>Order Now</b>
+                                </md-button>
+                            </div>
+                        </div>
+                    </marquee>
+                </div>
+            </md-card-content>
+        </md-card>
+    </div>
 
     <footer layout="column">
 
@@ -180,11 +286,19 @@
                 </div>
                 <div layout="column">
                     <div layout="row">
-                        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="500" height="250" src="https://maps.google.com/maps?hl=en&q=karachi&ie=UTF8&t=roadmap&z=10&iwloc=B&output=embed"><div><small><a href="http://embedgooglemaps.com">
-                            embedgooglemaps.com
-                        </a></small></div><div><small><a href="https://www.googlemapsgenerator.com/">generate Google Maps</a></small></div></iframe>
+                        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" width="500" height="250"
+                                src="https://maps.google.com/maps?hl=en&q=karachi&ie=UTF8&t=roadmap&z=10&iwloc=B&output=embed">
+                            <div>
+                                <small><a href="http://embedgooglemaps.com">
+                                    embedgooglemaps.com
+                                </a></small>
+                            </div>
+                            <div>
+                                <small><a href="https://www.googlemapsgenerator.com/">generate Google Maps</a></small>
+                            </div>
+                        </iframe>
                         <!--<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" width="500" height="250"-->
-                                <!--src="https://maps.google.com/maps?hl=en&amp;q=11916 94th Ave, South Richmond Hill,NY 11419&amp;ie=UTF8&amp;t=roadmap&amp;z=10&amp;iwloc=B&amp;output=embed"></iframe>-->
+                        <!--src="https://maps.google.com/maps?hl=en&amp;q=11916 94th Ave, South Richmond Hill,NY 11419&amp;ie=UTF8&amp;t=roadmap&amp;z=10&amp;iwloc=B&amp;output=embed"></iframe>-->
                     </div>
 
 

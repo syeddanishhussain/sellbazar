@@ -1,0 +1,29 @@
+{
+  "name": "html5-marquee",
+  "version": "0.1.2",
+  "authors": [
+    "muchweb <aleks@s-ko.net>"
+  ],
+  "license": "GPL-3.0+",
+  "ignore": [
+    "node_modules",
+    "bower_components"
+  ],
+  "homepage": "https://github.com/muchweb/html5-marquee",
+  "description": "HTML5 marquee tag implementation in pure CSS3",
+  "keywords": [
+    "html5",
+    "marquee"
+  ],
+  "main": "css/marquee.css",
+  "_release": "0.1.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.1.2",
+    "commit": "6872ee7c78acfd074ab845510e836c8ff9ca5616"
+  },
+  "_source": "git://github.com/muchweb/html5-marquee.git",
+  "_target": "~0.1.2",
+  "_originalSource": "html5-marquee",
+  "_direct": true
+}
