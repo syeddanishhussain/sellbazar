@@ -70,8 +70,8 @@ a:hover{
 }
 
 .imageAlign{
-    width: auto;
-    height: auto;
+    width: 258px;
+    height: 258px;
 
 
 }
@@ -126,6 +126,15 @@ footer{
     margin-bottom: -40%;
     color: white;
 }
+.DropDown{
+
+    float: right;
+    margin-top: 5px ;
+}
+.DropDown1{
+    color: black;
+    fill: black;
+}
 .dialogdemoBasicUsage #popupContainer {
     position: relative; }
 .dialogdemoBasicUsage .footer {
@@ -163,4 +172,12 @@ footer{
     font-size: 40px;
 
 }
+.sideWidth{
+     width: 450px !important;
+ }
+
+.NavButtonBar{
+  font-family:GothamRoundedMedium;
+}
+
 
