@@ -120,20 +120,82 @@
             <!--Sample dropdown-->
 
 
-
-
             <!--Sample Dropdown End-->
-            <md-button class="md-raised NavButtonBar">MEN's<span class="DropDown"><ng-md-icon icon="keyboard_arrow_down" class="DropDown1"></ng-md-icon></span></md-button>
-            <md-button class="md-raised NavButtonBar">Women's<span class="DropDown"><ng-md-icon icon="keyboard_arrow_down" class="DropDown1"></ng-md-icon></span></md-button>
-            <md-button class="md-raised NavButtonBar">Childrens<span class="DropDown"><ng-md-icon icon="keyboard_arrow_down" class="DropDown1"></ng-md-icon></span></md-button>
-            <md-button class="md-raised NavButtonBar">Electronics<span class="DropDown"><ng-md-icon icon="keyboard_arrow_down" class="DropDown1"></ng-md-icon></span></md-button>
-            <md-button class="md-raised NavButtonBar">Lifestyle<span class="DropDown"><ng-md-icon icon="keyboard_arrow_down" class="DropDown1"></ng-md-icon></span></md-button>
-            <md-button class="md-raised NavButtonBar">Sports & Fitness<span class="DropDown"><ng-md-icon icon="keyboard_arrow_down" class="DropDown1"></ng-md-icon></span></md-button>
-            <md-button class="md-raised NavButtonBar">Home & Outdoor<span class="DropDown"><ng-md-icon icon="keyboard_arrow_down" class="DropDown1"></ng-md-icon></span></md-button>
-            <md-button class="md-raised NavButtonBar">Health & Care<span class="DropDown"><ng-md-icon icon="keyboard_arrow_down" class="DropDown1"></ng-md-icon></span></md-button>
+      <div layout="row">
+        <md-menu md-offset="0 -7">
+            <md-button class="md-raised NavButtonBar" ng-click="$mdOpenMenu($event)">Men's<span class="DropDown"><ng-md-icon icon="keyboard_arrow_down" class="DropDown1"></ng-md-icon></span></md-button>
 
+            <md-menu-content width="2">
+                <md-menu-item ng-repeat="item in [1, 2, 3]">
+                    <md-button ng-click="ctrl.announceClick($index)"> <span md-menu-align-target>Option</span> {{item}} </md-button>
+                </md-menu-item>
+            </md-menu-content>
+        </md-menu>
+        <md-menu md-offset="0 -7">
+            <md-button class="md-raised NavButtonBar" ng-click="$mdOpenMenu($event)">Women's<span class="DropDown"><ng-md-icon icon="keyboard_arrow_down" class="DropDown1"></ng-md-icon></span></md-button>
 
+            <md-menu-content width="2">
+                <md-menu-item ng-repeat="item in [1, 2, 3]">
+                    <md-button ng-click="ctrl.announceClick($index)"> <span md-menu-align-target>Option</span> {{item}} </md-button>
+                </md-menu-item>
+            </md-menu-content>
+        </md-menu>
+        <md-menu md-offset="0 -7">
+            <md-button class="md-raised NavButtonBar" ng-click="$mdOpenMenu($event)">Childrens<span class="DropDown"><ng-md-icon icon="keyboard_arrow_down" class="DropDown1"></ng-md-icon></span></md-button>
 
+            <md-menu-content width="2">
+                <md-menu-item ng-repeat="item in [1, 2, 3]">
+                    <md-button ng-click="ctrl.announceClick($index)"> <span md-menu-align-target>Option</span> {{item}} </md-button>
+                </md-menu-item>
+            </md-menu-content>
+        </md-menu>
+        <md-menu md-offset="0 -7">
+            <md-button class="md-raised NavButtonBar" ng-click="$mdOpenMenu($event)">Electronics<span class="DropDown"><ng-md-icon icon="keyboard_arrow_down" class="DropDown1"></ng-md-icon></span></md-button>
+
+            <md-menu-content width="2">
+                <md-menu-item ng-repeat="item in [1, 2, 3]">
+                    <md-button ng-click="ctrl.announceClick($index)"> <span md-menu-align-target>Option</span> {{item}} </md-button>
+                </md-menu-item>
+            </md-menu-content>
+        </md-menu>
+        <md-menu md-offset="0 -7">
+            <md-button class="md-raised NavButtonBar" ng-click="$mdOpenMenu($event)">Lifestyle<span class="DropDown"><ng-md-icon icon="keyboard_arrow_down" class="DropDown1"></ng-md-icon></span></md-button>
+
+            <md-menu-content width="2">
+                <md-menu-item ng-repeat="item in [1, 2, 3]">
+                    <md-button ng-click="ctrl.announceClick($index)"> <span md-menu-align-target>Option</span> {{item}} </md-button>
+                </md-menu-item>
+            </md-menu-content>
+        </md-menu>
+        <md-menu md-offset="0 -7">
+            <md-button class="md-raised NavButtonBar" ng-click="$mdOpenMenu($event)">Sports & Fitness<span class="DropDown"><ng-md-icon icon="keyboard_arrow_down" class="DropDown1"></ng-md-icon></span></md-button>
+
+            <md-menu-content width="2">
+                <md-menu-item ng-repeat="item in [1, 2, 3]">
+                    <md-button ng-click="ctrl.announceClick($index)"> <span md-menu-align-target>Option</span> {{item}} </md-button>
+                </md-menu-item>
+            </md-menu-content>
+        </md-menu>
+        <md-menu md-offset="0 -7">
+            <md-button class="md-raised NavButtonBar" ng-click="$mdOpenMenu($event)">Home & Outdoor<span class="DropDown"><ng-md-icon icon="keyboard_arrow_down" class="DropDown1"></ng-md-icon></span></md-button>
+
+            <md-menu-content width="2">
+                <md-menu-item ng-repeat="item in [1, 2, 3]">
+                    <md-button ng-click="ctrl.announceClick($index)"> <span md-menu-align-target>Option</span> {{item}} </md-button>
+                </md-menu-item>
+            </md-menu-content>
+        </md-menu>
+        <md-menu md-offset="0 -7">
+            <md-button class="md-raised NavButtonBar" ng-click="$mdOpenMenu($event)">Sports & Fitness<span class="DropDown"><ng-md-icon icon="keyboard_arrow_down" class="DropDown1"></ng-md-icon></span></md-button>
+
+            <md-menu-content width="2">
+                <md-menu-item ng-repeat="item in [1, 2, 3]">
+                    <md-button ng-click="ctrl.announceClick($index)"> <span md-menu-align-target>Health & Care</span> {{item}} </md-button>
+                </md-menu-item>
+            </md-menu-content>
+        </md-menu>
+
+</div>
         </div>
 
         <div class="animation" layout="row" layout-align="center center"> <!-- Open Animation -->
